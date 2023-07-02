@@ -1,0 +1,13 @@
+[package]
+name = "syn-rs"
+version = "0.1.0"
+edition = "2021"
+[[bin]]
+name = "print-ast"
+path = "print-ast.rs"
+[[bin]]
+name = "print-tokens"
+path = "print-tokens.rs"
+[dependencies]
+quote = { version = "1.0.29", features = ["proc-macro"] }
+syn = { version = "2.0.22", features = ["full"] }
