@@ -1,0 +1,7 @@
+#+TITLE: syn
+#+DESCRIPTION: syntax synthesis framework
+
+- status :: experimental
+
+This repo contains some ideas related to AST traversal of external
+languages via Lisp.
