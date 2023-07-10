@@ -5,3 +5,8 @@
 
 This repo contains some ideas related to AST traversal of external
 languages via Lisp.
+
+- files
+  #+name: syn-files
+  #+begin_src emacs-lisp
+  #+end_src
